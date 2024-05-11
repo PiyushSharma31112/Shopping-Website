@@ -44,14 +44,14 @@ function Cart() {
                   </div>  
               </div>
           ) : (
-              <div>
-                <div>
+              <div className='flex items-center justify-center h-[90vh] overflow-hidden'>
+                <div className='flex flex-col items-center justify-center'>
                     <h1 className='text-4xl text-green-600 font-bold my-8 text-center'>
-
+                                Cart Empty
                     </h1>
 
                     <Link to={'/'}>
-                        <button className='px-4 py-2 text-lg font-semibold bg-green-800 text-white'>
+                        <button className='px-4 py-2 text-lg font-semibold bg-green-800 text-white rounded-lg'>
                             Shop Now
                         </button>
                     </Link>

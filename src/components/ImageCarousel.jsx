@@ -40,7 +40,7 @@ function ImageCarousel({ image }) {
         <AiOutlineLeft onClick={moveLeft} /> 
       </button>
 
-      <button className='z-40 absolute top-1/2 left-4 -translate-y-1/2 w-10 aspect-square bg-[rgbe(255, 255, 255, 0.5)] flex items-center justify-center rounded-full'>
+      <button className='z-40 absolute top-1/2 right-4 -translate-y-1/2 w-10 aspect-square bg-[rgbe(255, 255, 255, 0.5)] flex items-center justify-center rounded-full'>
         <AiOutlineRight onClick={moveRight} /> 
       </button>
 
