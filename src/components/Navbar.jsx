@@ -27,7 +27,7 @@ function Navbar() {
             <FaShoppingCart className='text-2xl' />
             {
               cart.length > 0 && 
-              <span className='absolute -top1 -right-2 bg-gray-600 text-xs w-5 h-5 rounded-full flex items-center justify-center animate-bounce text-white'>
+              <span className='absolute -top-1 -right-2 bg-gray-600 text-xs w-5 h-5 rounded-full flex items-center justify-center animate-bounce text-white'>
                 {cart.length}
               </span>
             }
